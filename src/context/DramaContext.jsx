@@ -6,17 +6,15 @@ export const useDramaContext = () => useContext(DramaContext)
 
 export const DramaProvider = ({children}) => {
 
-    const [favorites, setFavorites] = useState([])
+    const [favorites, setFavorites] = useState(() => {
 
-    useEffect(() => {
         const storedFavs = localStorage.getItem("favorites")
-
-        if (storedFavs) setFavorites(JSON.parse(storedFavs))
-
-    }, [])
+        return storedFavs ? JSON.parse(storedFavs) : [];
+        
+    })
 
     useEffect(() => {
-        localStorage.setItem('favorite', JSON.stringify(favorites))
+        localStorage.setItem("favorites", JSON.stringify(favorites))
     }, [favorites])
 
     const addToFavorites = (drama) => {
