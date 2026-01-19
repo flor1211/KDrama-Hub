@@ -100,7 +100,7 @@ function Home(){
                             />
                             
                             <button 
-                                className="btn btn-danger px-5 fw-semibold" 
+                                className="btn btn-danger px-3 px-md-5 fw-semibold d-flex align-items-center justify-content-center" 
                                 type="submit"
                                 style={{
                                     borderTopLeftRadius: 0,
@@ -108,8 +108,9 @@ function Home(){
                                 }}
                             >
                                 <i className="bi bi-search me-2"></i>
-                                Search
+                                <span className="d-none d-md-inline">Search</span>
                             </button>
+
                         </div>
                     </form>
 
