@@ -1,16 +1,26 @@
-# React + Vite
+**🧡 KDrama Hub**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KDrama Hub is a web platform designed to help fans discover their next binge-worthy Korean drama. We understand the struggle of finding quality dramas and keeping track of what you've watched. Our platform brings together comprehensive information about thousands of Korean dramas—from timeless classics to the latest releases—all in one beautifully designed interface.
 
-Currently, two official plugins are available:
+https://kdrama-hub.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**OVERVIEW**
 
-## React Compiler
+KDrama Hub is mainly for browsing and tracking Korean dramas. Users can explore drama titles, view detailed information including title, synopsis, and status, and add dramas to their Favorites to keep track of what they want to watch next.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**FEATURES**
+  🔎 Search for Korean dramas
+  📄 View detailed drama pages with:
+    - Title
+    - Synopsis
+    - Status (ongoing, completed)
+  🧡 Add dramas to Favorites for easy tracking
+  📱 Fully responsive design for desktop, tablet, and mobile
 
-## Expanding the ESLint configuration
+**TECHNOLOGIES**
+Frontend: React with Vite
+Styling: Bootstrap 5, Bootstrap Icon, React Icons
+API: TMDB API for drama data
+Deployment: Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  
