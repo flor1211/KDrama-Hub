@@ -21,7 +21,7 @@ function DramaCard({drama}) {
 
     return (
     <div className="col">
-        <div className="card h-100 border-1 shadow-sm overflow-hidden drama-card position-relative" 
+        <div className="card border-1 shadow-sm overflow-hidden drama-card position-relative" 
             style={{ cursor: "pointer", transition: "transform 0.3s ease, box-shadow 0.3s ease" }}
             onMouseEnter={(e) => {
                 e.currentTarget.style.transform = "translateY(-8px)";
@@ -42,8 +42,10 @@ function DramaCard({drama}) {
                     className="card-img-top"
                     alt={drama.name}
                     style={{ 
-                        height: "400px", 
+                        // height: "400px", 
+                        // objectFit: "cover",
                         objectFit: "cover",
+                        width: "100%",
                         transition: "transform 0.3s ease"
                     }}
                     onMouseEnter={(e) => e.target.style.transform = "scale(1.05)"}

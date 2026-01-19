@@ -5,7 +5,40 @@
 .drama-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+
 }
+
+.drama-poster {
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    .drama-poster {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .drama-poster {
+        height: 250px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 0.9rem;
+    }
+
+    .text-muted {
+        font-size: 0.75rem;
+    }
+
+    .badge {
+        font-size: 0.7rem;
+        padding: 0.25rem 0.5rem;
+    }
+}
+
 
 /* .drama-card {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

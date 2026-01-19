@@ -114,13 +114,24 @@ function Home(){
                         </div>
                     </form>
 
-                    <div className="mt-4">
+                    {/* <div className="mt-4">
                         <small className="text-muted me-2">Popular:</small>
                         <span className="badge bg-light text-dark border me-2 px-3 py-2">Squid Game</span>
                         <span className="badge bg-light text-dark border me-2 px-3 py-2">Running Man</span>
                         <span className="badge bg-light text-dark border me-2 px-3 py-2">Idol I</span>
                         <span className="badge bg-light text-dark border px-3 py-2">Weak Hero</span>
+                    </div> */}
+
+                    <div className="mt-4 d-flex flex-wrap justify-content-center align-items-center">
+                        <small className="text-muted me-2 mb-2">Popular:</small>
+                        
+                        <span className="badge bg-light text-dark border me-2 mb-2 px-3 py-2">Squid Game</span>
+                        <span className="badge bg-light text-dark border me-2 mb-2 px-3 py-2">Running Man</span>
+                        <span className="badge bg-light text-dark border me-2 mb-2 px-3 py-2">Idol I</span>
+                        <span className="badge bg-light text-dark border mb-2 px-3 py-2">Weak Hero</span>
                     </div>
+
+
                 </div>
             </div>
 
